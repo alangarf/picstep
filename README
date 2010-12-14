@@ -1,0 +1,29 @@
+Firstly thanks for looking at my design, it was started from the ground up for
+the community to share and use. I've released all code and designs under GPL,
+which means it's free to use for any purpose as long as my copyright is
+retained and any modifications are also released publicly. Any commercial
+interest must be approved by ME! :)
+
+PICStep is a micro-stepping step motor controller that uses a special set of
+driver ICs (LMD18245) to control the motor coils current to such a degree that
+you can divide the magnetic steps of a step motor to 1/2, 1/4 or even 1/8th
+their original size! Of course resolution suffers a little in 1/8th mode as not
+all steps are mechanically identical from one to another; the difference
+is negligible, but the increased smoothness and efficiency is dramatic!
+
+PICStep uses a single layer board and about 30 components and a few wire links
+to make it all happen.
+
+The LMD18245 are rated at 55V @ 3amps but I've not tested it up to that range
+and there are special requirements that need to be met to deal with back EMF
+at this range. I'd suggest reading the LMD18245 data-sheet (which is available
+freely on the net') if you wish to use these drivers at or near this voltage.
+
+I've tested PICStep at 40VDC @ 2.5A without any modification or problems, but your
+mileage may vary! :)
+
+I use a simple 24V toroidal transformer and bridge rectifier for my PSU. 24V
+RMS works out to about 35VDC when rectified. Plus I've provided massive amounts
+of filtering by using a very large electrolytic capacitor to filter out the humps
+and bumps. It works very well and can supply my three drivers without a problem.
+

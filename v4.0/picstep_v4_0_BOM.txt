@@ -1,0 +1,39 @@
+Resistors
+-------------
+
+5 x 10K 1/4W (R5, R6, R7, R8, R9)			RR-0596
+2 x 20K 1/4W (R1, R3)					RR-0603
+2 x 20K 1/4W (R2, R4) - Adjustable to set current limit read readme
+
+Capacitors
+-------------
+
+2 x 2.2nF MKT (C1, C3)					RM-7022	
+2 x 500pF Ceramic (C2, C4)				RC-5333
+2 x 1uF 100V MKT (C5, C7)				RM-7170
+2 x 470uF 63V Electro (C6, C8)				RE-6210
+1 x 100uF 16V Electro (C9)				RE-6130
+2 x 10nF MKT (C10, C11)					RM-7065
+2 x 2pF MKT/Ceramic (C12, C13) (Only needed if you are using a XTAL)
+
+Semiconductors
+-------------
+
+1 x PIC16F628A (U1)					ZZ-8520
+2 x LMD18245 (U2, U3)					DIGIKEY LMD18245T-ND
+
+Misc
+-------------
+
+1 x 10 pin IDC header (CONN1)
+2 x 2 pin IDC headers (J1, J2)
+3 x 2 way PCB Mount Screw Terminal (CONN2, M1 x 2)	HM-3172
+1 x 20MHz 3 pin resonator (X1)				Dontronics ZTT-20.00MX
+
+
+
+X1 can be replaced with a 20MHz XTAL, if this is the case make sure to use
+appropriate sized capacitors in C12 and C13. With a resonators these
+capacitors aren't needed!
+
+
