@@ -6,8 +6,8 @@ interest must be approved by ME! :)
 
 PICStep is a micro-stepping step motor controller that uses a special set of
 driver ICs (LMD18245) to control the motor coils current to such a degree that
-you can divide the magnetic steps of a step motor to 1/2, 1/4 or even 1/8th
-their original size! Of course resolution suffers a little in 1/8th mode as not
+you can divide the magnetic steps of a step motor to 1/2, 1/4, 1/8th or even 1/16th
+their original size! Of course resolution suffers a little in 1/16th mode as not
 all steps are mechanically identical from one to another; the difference
 is negligible, but the increased smoothness and efficiency is dramatic!
 
